@@ -11,6 +11,40 @@
     margin: 10px auto;
 }
 
+ul {
+    list-style: none;
+    list-style-position: inside;
+    line-height: 30px;
+}
+
+li {
+    line-height: 50px;
+}
+
+.bg-blue {
+    background-color: #44abebff;
+}
+
+.bg-purple {
+    background-color: #9b71e3ff;
+}
+
+.bg-green {
+    background-color: #63bfa8ff;
+}
+
+.bg-orange {
+    background-color: #f29f33ff;
+}
+
+.bg-pink {
+    background-color: #d964a2ff;
+}
+
+.bg-yellowgreen {
+    background-color: #b1c926ff;
+}
+
 /* Generics */
 
 body {
@@ -52,8 +86,9 @@ main {
     height: 80px;
     background-color: white;
     border-radius: 5px;
-    border-bottom: #808080ff;
+    border-bottom: 4px solid #808080ff;
     padding: 20px 40px;
+    margin-top: 30px;
 }
 
 .btn {
@@ -74,4 +109,53 @@ main {
 .btn-white {
     color: #808080ff;
     border: 1px solid #808080ff;
+}
+
+.main-bottom {
+    background-color: white;
+    padding: 40px 40px;
+}
+
+
+.main-list {
+
+    padding: 20px;
+    line-height: 40px;
+}
+
+.check {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #1b8f1bff;
+    color: #1b8f1bff;
+    border-radius: 50%;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    line-height: 20px;
+
+}
+
+
+.cross {
+
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    color: red;
+    border-radius: 50%;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    line-height: 20px;
+}
+
+
+
+.badge {
+
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+
 }
